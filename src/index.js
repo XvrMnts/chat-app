@@ -5,6 +5,8 @@ const Filter = require('bad-words')
 const { generateMessage, generateLocationMessage } = require('./utils/messages')
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./utils/users')
 
+// https://xvr-chat-app.herokuapp.com/ | https://git.heroku.com/xvr-chat-app.git
+
 const port = process.env.PORT
 
 const server = http.createServer(app)
